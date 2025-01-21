@@ -1,0 +1,20 @@
+import folium
+
+# Create a map centered at a specific location (e.g., Seattle, WA)
+map_center = [47.6062, -122.3321]
+my_map = folium.Map(location=map_center, zoom_start=12)
+
+# Add a marker to the map
+marker = folium.Marker(location=map_center, popup="Seattle")
+my_map.add_child(marker)
+
+# Save the map to an HTML file
+my_map.save("my_map.html")
+AI-generated code. Review and use carefully. More info on FAQ.
+In this code:
+
+We create a map centered at latitude 47.6062 and longitude -122.3321 (Seattle, WA).
+A marker is added to the map with a popup displaying “Seattle.”
+The map is saved as an HTML file named “my_map.html.”
+Remember to install Folium using pip install folium before running this code. 
+Adjust the location and other parameters as needed for your specific use case!
