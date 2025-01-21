@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=``, initial-scale=>" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h2>Logo.</h2>
+      <nav>
+        <a href="index.html">
+          <p>Home</p>
+        </a>
+        <a href="page2.html">
+          <p>page2</p>
+        </a>
+        <a href="Form.html">
+          <p>form</p>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <form action="" method="get">
+        <label for="fn">First Name</label>
+        <input type="text" name="fname" id="fn" />
+        <br />
+        <label for="ln">last Name</label>
+        <input type="text" name="lname" id="ln" />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder=" e.g someone@example.com" />
+        <br />
+        <label for="pwd">Password</label>
+        <input type="password" name="password" id="pwd" />
+        <br />
+        <label for="doa">Date of Appointment</label>
+        <input type="date" name="doa" id="doa" max="2010-01-01" />
+        <br />  
+        <label for="Us">Upload Selfie</label>
+        <input type="file" name="Us" id="Us" />
+        <br />
+        <label for="Fc">Favourite Color</label>
+        <input type="color" name="Fc" id="Fc" />
+        <br /> 
+        <label for="age">age</label>
+        <input type="number" name="age" id="age"  min="18" max="25"/>
+        <br />
+        <label for="nationality">Select your Country</label>
+        <select name="nationality" id="nationality">
+            <option value=""disabled selected>---Countries---</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Japan">Japan</option>
+            <option value="China">China</option>
+        </select>    
+        <br />  
+                <!-- Creating a checkbox in  HTML-->
+        <label for="hobby"> Select your hobby</label>
+        <br>
+        <label for="Swimming">Swimming</label>
+        <input type="checkbox" name="hobby" id="Swimming">
+        <label for="gamming">Gamming</label>
+        <input type="checkbox" name="hobby" id="gamming" checked>
+        <label for="Cooking">Cooking</label>
+        <input type="checkbox" name="hobby" id="Cooking">
+        <br/>
+        <!-- Making a Radio input in HTML-->
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female" />
+        <br />
+        <label for="Comment">Comment</label>
+        <textarea name="Comment" id="Comment" rows="10" cols="30"></textarea>
+        <br />
+         
+
+        <button>Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
